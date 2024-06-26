@@ -5,4 +5,4 @@ function handleClick() {
 let buttonElement = document.querySelector("#special-button");
 buttonElement.addEventListener("click", handleClick);
 
-console.log(buttonElement.setAttribute("id","goodbye"));
+buttonElement.style.background ="red"
