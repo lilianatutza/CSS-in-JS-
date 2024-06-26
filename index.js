@@ -1,2 +1,6 @@
+function handleClick() {
+  alert("hi");
+}
+
 let buttonElement = document.querySelector("#special-button");
-console.log(buttonElement);
+buttonElement.addEventListener("click", handleClick);
