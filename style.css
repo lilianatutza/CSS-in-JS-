@@ -6,3 +6,8 @@ button{
   padding: 15px 20px;
   border-radius: 10px;
 }
+.highlight{
+color: green;
+text-align: center;
+background-color: red;
+}
