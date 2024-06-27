@@ -1,6 +1,6 @@
 function handleClick() {
   let heading = document.querySelector("h1");
-  heading.classList.add ("highlight");
+  heading.classList.toggle ("highlight");
 }
 
 let buttonElement = document.querySelector("#special-button");
